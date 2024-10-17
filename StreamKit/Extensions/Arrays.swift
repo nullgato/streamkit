@@ -14,9 +14,9 @@ extension [Argument] {
 }
 
 extension [NSRunningApplication] {
-    func containsApp(_ process: String) -> Bool {
+    func containsApp(_ name: String) -> Bool {
         for runningApp in self {
-            if process == runningApp.localizedName ?? runningApp.className {
+            if name == runningApp.localizedName ?? runningApp.className {
                 return true
             }
         }

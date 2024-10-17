@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,9 @@
 		F243F7212CBCEE2800C3B66E /* HelperTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F7202CBCEE1F00C3B66E /* HelperTool.swift */; };
 		F243F7252CBCEFF300C3B66E /* HelperToolbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F7242CBCEFE300C3B66E /* HelperToolbox.swift */; };
 		F243F7272CBCF10800C3B66E /* HelperToolboxProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F7262CBCF0FD00C3B66E /* HelperToolboxProvider.swift */; };
+		F243F72B2CBE04E800C3B66E /* LiveParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F72A2CBE04E100C3B66E /* LiveParser.swift */; };
+		F243F72E2CBE0A0600C3B66E /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = F243F72D2CBE0A0600C3B66E /* SwiftSoup */; };
+		F243F7502CC0A2F200C3B66E /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F74F2CC0A2E800C3B66E /* ManagerView.swift */; };
 		F2AA7B0F2C98A1E7006E5ED4 /* StreamKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7B0E2C98A1E7006E5ED4 /* StreamKitApp.swift */; };
 		F2AA7B112C98A1E7006E5ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7B102C98A1E7006E5ED4 /* ContentView.swift */; };
 		F2AA7B132C98A1E8006E5ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AA7B122C98A1E8006E5ED4 /* Assets.xcassets */; };
@@ -48,6 +51,8 @@
 		F243F7262CBCF0FD00C3B66E /* HelperToolboxProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperToolboxProvider.swift; sourceTree = "<group>"; };
 		F243F7282CBCFB5500C3B66E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F243F7292CBCFBE100C3B66E /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		F243F72A2CBE04E100C3B66E /* LiveParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveParser.swift; sourceTree = "<group>"; };
+		F243F74F2CC0A2E800C3B66E /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
 		F2AA7B0B2C98A1E7006E5ED4 /* StreamKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA7B0E2C98A1E7006E5ED4 /* StreamKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamKitApp.swift; sourceTree = "<group>"; };
 		F2AA7B102C98A1E7006E5ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,7 +71,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F2B626352CB9CFAB004F60D7 /* AppsView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppsView; sourceTree = "<group>"; };
+		F2B626352CB9CFAB004F60D7 /* AppsView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppsView;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F243F72E2CBE0A0600C3B66E /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +105,7 @@
 		F243F6DB2CBB5EBD00C3B66E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F243F72A2CBE04E100C3B66E /* LiveParser.swift */,
 				F243F7262CBCF0FD00C3B66E /* HelperToolboxProvider.swift */,
 				F243F6DC2CBB5EC400C3B66E /* AppMetadataProvider.swift */,
 			);
@@ -169,6 +180,7 @@
 		F2AA7B312C98E844006E5ED4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F243F74F2CC0A2E800C3B66E /* ManagerView.swift */,
 				F243F7192CBCE72B00C3B66E /* HelperView */,
 				F243F6DF2CBB606A00C3B66E /* Components */,
 				F2B626352CB9CFAB004F60D7 /* AppsView */,
@@ -228,6 +240,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = "Bratcats Imperium";
 				TargetAttributes = {
 					F2AA7B0A2C98A1E7006E5ED4 = {
 						CreatedOnToolsVersion = 15.4;
@@ -235,7 +248,6 @@
 				};
 			};
 			buildConfigurationList = F2AA7B062C98A1E7006E5ED4 /* Build configuration list for PBXProject "StreamKit" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -243,6 +255,10 @@
 				Base,
 			);
 			mainGroup = F2AA7B022C98A1E7006E5ED4;
+			packageReferences = (
+				F243F72C2CBE0A0600C3B66E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = F2AA7B0C2C98A1E7006E5ED4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C071D52CB8E724008AE87E /* AppsViewPreview.swift in Sources */,
+				F243F7502CC0A2F200C3B66E /* ManagerView.swift in Sources */,
 				F243F7212CBCEE2800C3B66E /* HelperTool.swift in Sources */,
 				F243F71B2CBCE73E00C3B66E /* ToolStack.swift in Sources */,
 				F2AA7B362C990152006E5ED4 /* AppMetadata.swift in Sources */,
@@ -289,6 +306,7 @@
 				F2AA7B3F2C9945FD006E5ED4 /* Logger.swift in Sources */,
 				F2B6264C2CBA083E004F60D7 /* Argument.swift in Sources */,
 				F243F6F52CBCB58400C3B66E /* HelperView.swift in Sources */,
+				F243F72B2CBE04E800C3B66E /* LiveParser.swift in Sources */,
 				F2AA7B112C98A1E7006E5ED4 /* ContentView.swift in Sources */,
 				F2AA7B0F2C98A1E7006E5ED4 /* StreamKitApp.swift in Sources */,
 			);
@@ -422,24 +440,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = StreamKit/StreamKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2014101601;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"StreamKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 239PJT54P2;
+				DEVELOPMENT_TEAM = 3XG9QP2MTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StreamKit/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StreamKit;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -452,24 +472,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = StreamKit/StreamKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2014101601;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"StreamKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 239PJT54P2;
+				DEVELOPMENT_TEAM = 3XG9QP2MTP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StreamKit/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StreamKit;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -499,6 +521,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F243F72C2CBE0A0600C3B66E /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F243F72D2CBE0A0600C3B66E /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F243F72C2CBE0A0600C3B66E /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2AA7B032C98A1E7006E5ED4 /* Project object */;
 }

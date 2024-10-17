@@ -36,6 +36,17 @@ struct ChatView: View {
                 .frame(maxHeight: 300)
         }
         .padding()
+        .task {
+            LiveParser2.requestLive { identifier, error in
+                guard let identifier = identifier, error == nil else {
+                    print(error ?? "Unknown error")
+                    return
+                }
+                
+                ytVideoID = identifier
+                showYTChat = true
+            }
+        }
     }
 }
 

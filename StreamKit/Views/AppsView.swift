@@ -57,7 +57,7 @@ struct AppsView: View {
         
         VStack {
             List(apps) { app in
-                MetadataGroup(app, isRunning: runningApps.containsApp(app.process), selectedApp: $selectedApp, showEraseDialog: $showEraseDialog, showPathPicker: $showPathPicker)
+                MetadataGroup(app, isRunning: runningApps.containsApp(app.name), selectedApp: $selectedApp, showEraseDialog: $showEraseDialog, showPathPicker: $showPathPicker)
             }
             .scrollContentBackground(.hidden)
         }
@@ -89,9 +89,10 @@ struct AppsView: View {
     }
 }
 
-#Preview {    
-    return AppsView()
-        .modelContainer(AppsViewPreview.preivewContainer)
+#if DEBUG
+#Preview {
+    AppsView().modelContainer(AppsViewPreview.preivewContainer)
 }
+#endif
 
 // FIXME: Fix bug with minimize/maximize groups w/ arguments
