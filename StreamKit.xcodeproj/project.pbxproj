@@ -68,6 +68,7 @@
 		F2B626502CBA0B06004F60D7 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		F2C071D22CB8E651008AE87E /* AppMetadataSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMetadataSamples.swift; sourceTree = "<group>"; };
 		F2C071D42CB8E71A008AE87E /* AppsViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewPreview.swift; sourceTree = "<group>"; };
+		F2D361332CC35B6600F977EF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -134,6 +135,7 @@
 		F2AA7B022C98A1E7006E5ED4 = {
 			isa = PBXGroup;
 			children = (
+				F2D361332CC35B6600F977EF /* .gitignore */,
 				F243F7292CBCFBE100C3B66E /* LICENSE.md */,
 				F243F7282CBCFB5500C3B66E /* README.md */,
 				F2AA7B0D2C98A1E7006E5ED4 /* StreamKit */,
