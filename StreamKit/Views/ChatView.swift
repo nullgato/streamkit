@@ -37,7 +37,7 @@ struct ChatView: View {
         }
         .padding()
         .task {
-            LiveParser2.requestLive { identifier, error in
+            LiveParser.requestLive { identifier, error in
                 guard let identifier = identifier, error == nil else {
                     print(error ?? "Unknown error")
                     return

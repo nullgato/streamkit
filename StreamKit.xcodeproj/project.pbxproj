@@ -180,12 +180,12 @@
 		F2AA7B312C98E844006E5ED4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F243F74F2CC0A2E800C3B66E /* ManagerView.swift */,
 				F243F7192CBCE72B00C3B66E /* HelperView */,
 				F243F6DF2CBB606A00C3B66E /* Components */,
 				F2B626352CB9CFAB004F60D7 /* AppsView */,
 				F2AA7B2F2C98E832006E5ED4 /* AppsView.swift */,
 				F243F6F42CBCB57200C3B66E /* HelperView.swift */,
+				F243F74F2CC0A2E800C3B66E /* ManagerView.swift */,
 				F2AA7B322C98E8B5006E5ED4 /* ChatView.swift */,
 			);
 			path = Views;
@@ -444,7 +444,7 @@
 				CODE_SIGN_ENTITLEMENTS = StreamKit/StreamKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2014101601;
+				CURRENT_PROJECT_VERSION = 2014101801;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"StreamKit/Preview Content\"";
 				DEVELOPMENT_TEAM = 3XG9QP2MTP;
@@ -459,7 +459,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 0.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -476,7 +476,7 @@
 				CODE_SIGN_ENTITLEMENTS = StreamKit/StreamKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2014101601;
+				CURRENT_PROJECT_VERSION = 2014101801;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"StreamKit/Preview Content\"";
 				DEVELOPMENT_TEAM = 3XG9QP2MTP;
@@ -491,7 +491,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 0.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
