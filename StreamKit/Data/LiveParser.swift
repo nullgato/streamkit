@@ -11,7 +11,7 @@ import SwiftSoup
 struct LiveParser {
     static func requestLive(completionHandler: @escaping (String?, Error?) -> Void) {
         do {
-            let html = try String(contentsOf: URL(string: "https://youtube.com/@embyrdot/live")!, encoding: .utf8)
+            let html = try String(contentsOf: URL(string: "https://youtube.com/@nullmoggi/live")!, encoding: .utf8)
             
             let regex = /"videoId":"(.*?)"/
             if let result = try regex.firstMatch(in: html) {

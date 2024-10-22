@@ -14,9 +14,9 @@ struct HelperToolboxProvider {
                 HelperTool(title: "YouTube Content", systemImage: "movieclapper.fill", url: "https://studio.youtube.com/channel/UCUPtPvu6gzQZ4PlS4ZTIlvg/videos/live", color: .youTubeRed)
             ]),
             HelperToolbox(title: "Twitch Tools", tools: [
-                HelperTool(title: "Twitch Manager", systemImage: "squares.leading.rectangle.fill", url: "https://dashboard.twitch.tv/u/transcendingember/stream-manager", color: .twitchPurple),
-                HelperTool(title: "Twitch Analytics", systemImage: "chart.bar.xaxis.ascending", url: "https://dashboard.twitch.tv/u/transcendingember/analytics", color: .twitchPurple),
-                HelperTool(title: "Twitch Content", systemImage: "movieclapper.fill", url: "https://dashboard.twitch.tv/u/transcendingember/content/video-producer", color: .twitchPurple)
+                HelperTool(title: "Twitch Manager", systemImage: "squares.leading.rectangle.fill", url: "https://dashboard.twitch.tv/u/nullmoggi/stream-manager", color: .twitchPurple),
+                HelperTool(title: "Twitch Analytics", systemImage: "chart.bar.xaxis.ascending", url: "https://dashboard.twitch.tv/u/nullmoggi/analytics", color: .twitchPurple),
+                HelperTool(title: "Twitch Content", systemImage: "movieclapper.fill", url: "https://dashboard.twitch.tv/u/nullmoggi/content/video-producer", color: .twitchPurple)
             ]),
             HelperToolbox(title: "Streamlabs Tools", tools: [
                 HelperTool(title: "Recent Events", systemImage: "list.bullet.rectangle.fill", url: "https://streamlabs.com/dashboard/recent-events", color: .slobsGreen),

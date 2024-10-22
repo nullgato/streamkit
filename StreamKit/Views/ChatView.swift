@@ -29,7 +29,7 @@ struct ChatView: View {
                         WebView("https://studio.youtube.com/live_chat?is_popout=1&v=\(ytVideoID)", isSafariAgent: true)
                     }
                 }
-                WebView("https://dashboard.twitch.tv/popout/u/transcendingember/stream-manager/chat?uuid=c3abe01d02c10990c356803dd4a21fc3")
+                WebView("https://dashboard.twitch.tv/popout/u/nullmoggi/stream-manager/chat?uuid=c3abe01d02c10990c356803dd4a21fc3")
             }
             
             WebView("https://streamlabs.com/dashboard/recent-events")
