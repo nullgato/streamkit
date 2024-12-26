@@ -1,4 +1,4 @@
-# SwiftKit
+# StreamKit
 
 **A multi-view app to help manage streaming related tasks and applications**
 
@@ -11,7 +11,10 @@
 - **ManagerKit**: The stream configuration for YouTube/Twitch and how you set the title and related info
 - **ChatKit**: The chatting view with a YouTube/Twitch horizontal split followed by a Streamlabs vertical split underneath
 
+- **Settings**: Settings view where a user can toggle YouTube/Twitch/Streamlabs controls and input their username/channel ID for accurate interaction
+
 ## Project Roadmap(?)
 
-This project and it's planned features/tasks are managed using a kanban board I've configured on Notion:
-[Features/Tasks Board](https://elated-midnight-6fc.notion.site/StreamKit-1248dc5a148680069bdce753ddd7fc4c?pvs=4)
+- Control creation for HelperKit
+- Combined YouTube/Twitch chat
+- ???
