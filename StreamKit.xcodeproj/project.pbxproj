@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F210F8332D1DCBE900DB28AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210F8322D1DCBE300DB28AA /* SettingsView.swift */; };
+		F210F8362D1DDC3700DB28AA /* PlatformsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210F8352D1DDC2E00DB28AA /* PlatformsSettingsView.swift */; };
+		F210F8382D1E05F400DB28AA /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210F8372D1E05EB00DB28AA /* StorageKeys.swift */; };
 		F243F6DD2CBB5ED100C3B66E /* AppMetadataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F6DC2CBB5EC400C3B66E /* AppMetadataProvider.swift */; };
 		F243F6E12CBB607D00C3B66E /* EraseConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F6E02CBB607600C3B66E /* EraseConfirmationDialog.swift */; };
 		F243F6E32CBB650500C3B66E /* PlistImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F243F6E22CBB64FD00C3B66E /* PlistImporter.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F210F8322D1DCBE300DB28AA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F210F8352D1DDC2E00DB28AA /* PlatformsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformsSettingsView.swift; sourceTree = "<group>"; };
+		F210F8372D1E05EB00DB28AA /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
 		F243F6DC2CBB5EC400C3B66E /* AppMetadataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMetadataProvider.swift; sourceTree = "<group>"; };
 		F243F6E02CBB607600C3B66E /* EraseConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseConfirmationDialog.swift; sourceTree = "<group>"; };
 		F243F6E22CBB64FD00C3B66E /* PlistImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistImporter.swift; sourceTree = "<group>"; };
@@ -91,9 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F210F8342D1DDC1E00DB28AA /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				F210F8352D1DDC2E00DB28AA /* PlatformsSettingsView.swift */,
+				F210F8322D1DCBE300DB28AA /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
 		F243F6DA2CBB505200C3B66E /* Structs */ = {
 			isa = PBXGroup;
 			children = (
+				F210F8372D1E05EB00DB28AA /* StorageKeys.swift */,
 				F243F7242CBCEFE300C3B66E /* HelperToolbox.swift */,
 				F243F7202CBCEE1F00C3B66E /* HelperTool.swift */,
 				F243F6E42CBB70C900C3B66E /* CFInfo.swift */,
@@ -182,6 +198,7 @@
 		F2AA7B312C98E844006E5ED4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F210F8342D1DDC1E00DB28AA /* SettingsView */,
 				F243F7192CBCE72B00C3B66E /* HelperView */,
 				F243F6DF2CBB606A00C3B66E /* Components */,
 				F2B626352CB9CFAB004F60D7 /* AppsView */,
@@ -297,15 +314,18 @@
 				F2AA7B332C98E8B5006E5ED4 /* ChatView.swift in Sources */,
 				F243F6E32CBB650500C3B66E /* PlistImporter.swift in Sources */,
 				F2B626512CBA0B0D004F60D7 /* Arrays.swift in Sources */,
+				F210F8362D1DDC3700DB28AA /* PlatformsSettingsView.swift in Sources */,
 				F2AA7B302C98E832006E5ED4 /* AppsView.swift in Sources */,
 				F243F7272CBCF10800C3B66E /* HelperToolboxProvider.swift in Sources */,
 				F243F6DD2CBB5ED100C3B66E /* AppMetadataProvider.swift in Sources */,
 				F243F7252CBCEFF300C3B66E /* HelperToolbox.swift in Sources */,
 				F243F6E52CBB70F000C3B66E /* CFInfo.swift in Sources */,
+				F210F8332D1DCBE900DB28AA /* SettingsView.swift in Sources */,
 				F243F6F72CBCBC9000C3B66E /* WebView.swift in Sources */,
 				F243F71D2CBCEA6F00C3B66E /* ToolButton.swift in Sources */,
 				F243F6E12CBB607D00C3B66E /* EraseConfirmationDialog.swift in Sources */,
 				F2AA7B3F2C9945FD006E5ED4 /* Logger.swift in Sources */,
+				F210F8382D1E05F400DB28AA /* StorageKeys.swift in Sources */,
 				F2B6264C2CBA083E004F60D7 /* Argument.swift in Sources */,
 				F243F6F52CBCB58400C3B66E /* HelperView.swift in Sources */,
 				F243F72B2CBE04E800C3B66E /* LiveParser.swift in Sources */,
@@ -461,7 +481,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.3.2;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -493,7 +513,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.3.2;
+				MARKETING_VERSION = 0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = gay.bratcats.StreamKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -13,5 +13,10 @@ struct StreamKitApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        Settings {
+            SettingsView()
+                .frame(width: 500, height: 300)
+        }
     }
 }
